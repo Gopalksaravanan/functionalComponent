@@ -6,6 +6,8 @@ import UseRef from './useRef/useRef';
 import UseReducer from './useReducer/useReducer';
 import UseContext from './useContext/useContext';
 import UseCallback from './useCallback/UseCallback';
+import FirstComponent from './hoc/firstComponent';
+import SecondComponent from './hoc/secondComponent';
 
 
 
@@ -16,7 +18,9 @@ ReactDOM.render(
    {/* <UseRef /> */}
    {/* <UseReducer/> */}
    {/* <UseContext/> */}
-   <UseCallback />
+   {/* <UseCallback /> */}
+   <FirstComponent />
+   <SecondComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
