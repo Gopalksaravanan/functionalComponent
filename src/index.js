@@ -8,6 +8,10 @@ import UseContext from './useContext/useContext';
 import UseCallback from './useCallback/UseCallback';
 import FirstComponent from './hoc/firstComponent';
 import SecondComponent from './hoc/secondComponent';
+import BackfaceVisibility from './cssPractice/backfaceVisbility';
+import BackgroundAttachment from './cssPractice/backgroundAttachment';
+import BorderCollapse from './cssPractice/borderCollapse';
+import BorderColor from './cssPractice/borderColour';
 
 
 
@@ -19,8 +23,12 @@ ReactDOM.render(
    {/* <UseReducer/> */}
    {/* <UseContext/> */}
    {/* <UseCallback /> */}
-   <FirstComponent />
-   <SecondComponent />
+   {/* <FirstComponent />
+   <SecondComponent /> */}
+   {/* <BackfaceVisibility /> */}
+   {/* <BackgroundAttachment /> */}
+   {/* <BorderCollapse /> */}
+    {/* <BorderColor /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
