@@ -12,6 +12,7 @@ import BackfaceVisibility from './cssPractice/backfaceVisbility';
 import BackgroundAttachment from './cssPractice/backgroundAttachment';
 import BorderCollapse from './cssPractice/borderCollapse';
 import BorderColor from './cssPractice/borderColour';
+import BorderLeft from './cssPractice/borderleft';
 
 
 
@@ -28,7 +29,8 @@ ReactDOM.render(
    {/* <BackfaceVisibility /> */}
    {/* <BackgroundAttachment /> */}
    {/* <BorderCollapse /> */}
-    {/* <BorderColor /> */}
+   {/* <BorderColor /> */}
+    <BorderLeft />
   </React.StrictMode>,
   document.getElementById('root')
 );
